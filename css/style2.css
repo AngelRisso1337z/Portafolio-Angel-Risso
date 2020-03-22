@@ -1,0 +1,74 @@
+    @charset "UTF-8";
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+    body {
+        color: #444;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    
+    header {
+        background-color: rgba(0, 0, 0, 0.7);
+        text-align: center;
+        font-size: 16px;
+        color: #000000;
+        padding: 20px 0;
+    }
+    
+    main {
+        background-color: #3b2cc9d3;
+    }
+    
+    header h1 {
+        font-size: 18px;
+    }
+    
+    #map {
+        width: 90%;
+        height: 90%;
+        position: absolute;
+        margin-bottom: 20px;
+    }
+    
+    #info-footer {
+        color: #a2a2a2;
+        background-color: #3d3f3e;
+        padding: 10px 0;
+    }
+    
+    #info-footer h4 {
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #dfdfdf;
+        margin-bottom: 25px;
+    }
+    
+    .btn-negro {
+        color: #dfdfdf;
+        background-color: #000000;
+        text-transform: uppercase;
+        font-size: 16px;
+        padding: 15px 30px;
+        border-radius: 0;
+        border: 0;
+        margin-right: 20px;
+        letter-spacing: 2px;
+    }
+    
+    #contacto {
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 30vh;
+        margin: 30px;
+    }
+    
+    .section {
+        padding: 60px 0;
+    }
+    
+    #proyectos {
+        justify-content: center;
+        justify-self: center;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+    }
