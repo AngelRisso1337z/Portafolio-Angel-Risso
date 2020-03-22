@@ -1,5 +1,6 @@
     @charset "UTF-8";
     body {
+        background-color: #3b1b32d3;
         color: #000000;
         font-size: 15px;
         font-weight: 300;
@@ -14,9 +15,7 @@
         padding: 20px 0;
     }
     
-    main {
-        background-color: #3b1b32d3;
-    }
+    main {}
     
     header h1 {
         font-size: 18px;
@@ -32,6 +31,20 @@
     #info-footer {
         color: #a2a2a2;
         background-color: #3d3f3e;
+    }
+    
+    #about {
+        align-items: center;
+        text-align: center;
+        align-content: center;
+        align-self: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    #about p {
+        align-items: center;
+        align-content: center;
     }
     
     #info-footer h4 {
@@ -93,8 +106,46 @@
         transition: all 0.3s ease-in-out;
     }
     
-    #servicios {
-        align-items: center;
+    .titulos {
         text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .servicio {
+        width: 50%;
+        margin: auto;
         align-content: center;
+        align-self: center;
+        justify-self: center;
+        justify-content: center;
+    }
+    
+    .lista {
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #about h5 {
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    
+    .navega {
+        margin-bottom: 15px;
+    }
+    
+    .form-control {
+        background-color: #b3009b;
+        color: #000000 !important;
+    }
+    
+    .form-group::placeholder {
+        color: #000000;
+    }
+    
+    #nombre::placeholder {
+        color: #000000;
     }

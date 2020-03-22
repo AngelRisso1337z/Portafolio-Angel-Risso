@@ -12,13 +12,14 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">
     <meta name="Description" content="Pagina Web Portafolio de Angel Armin Risso Sequeira, para Diseno Web 1">
+
     <meta name="Keywords" content="Diseno Web 1, Angel Risso, Angel, Portafolio, Portafolio Angel, Diseno Web 1 Portafolio Angel Risso">
     <link rel="stylesheet" href="css/style2.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navega">
             <a class="navbar-brand" href="index.html"><img src="/img/sans_dab.png" alt="logotipo" class="img-fluid" height="150px" width="150px"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
@@ -49,26 +50,45 @@
 
     <main>
         <section id="about">
-            <h3>Sobre Mi</h3>
+            <h3 class="titulos">Sobre Mi</h3>
             <div class="container">
                 <div class="row">
                     <article class="col-md-6 col-sm-12 col-xs-12">
-                        <p>Nombre: Angel Armin Risso Sequeira</p>
-                        <p>Edad:20 años</p>
-                        <p>Carrera: Animacion Digital y Diseño interactivo</p>
-                        <p>Hola! Yo soy Angel Armin Risso Sequeira, Soy un novato profesional</p>
-                        <p>No soy particularmente bueno en algo, soy decente en casi todo lo que hago</p>
-                        <p>solo que... mi sentdo del humor es algo... particular</p>
-                        <p>no podre dibujar bien, o hacer diseño web bien, un monton de cosas no las hago bien</p>
+                        <h5>Nombre: Angel Armin Risso Sequeira</h5>
+                        <h5>Edad:20 años</h5>
+                        <h5>Carrera: Animacion Digital y Diseño interactivo</h5>
+                        <h5>Hola! Yo soy Angel Armin Risso Sequeira, Soy un novato profesional</h5>
+                        <h5>No soy particularmente bueno en algo, soy decente en casi todo lo que hago</h5>
+                        <h5>solo que... mi sentdo del humor es algo... particular</h5>
+                        <h5>no podre dibujar bien, o hacer diseño web bien, un monton de cosas no las hago bien</h5>
 
-                        <p>pero mas que nada, yo siempre doy mi 110% a todo, ya sea para ganar o para perder</p>
+                        <h5>pero mas que nada, yo siempre doy mi 110% a todo, ya sea para ganar o para perder</h5>
+                    </article>
+                    <article class="col-md-6 col-sm-12 col-xs-12">
+                        <img src="img/Angel.jpeg" alt="Una foto mia" class="img-fluid">
                     </article>
                 </div>
             </div>
         </section>
 
         <section id="servicios">
-            <h3>Sevicios e Utilidades</h3>
+            <div class="servicio">
+                <h3 class="titulos">Sevicios e Utilidades</h3>
+                <ul class="lista">
+                    <li>
+                        <h5>creacion de memes feos</h5>
+                    </li>
+                    <li>
+                        <h5>creacion y diseño de objetos conevncionales y no conevncionales</h5>
+                    </li>
+                    <li>
+                        <h5>un muy buen ambiente amistoso</h5>
+                    </li>
+                    <li>
+                        <h5>no ser muy bueno en diseño web</h5>
+                    </li>
+                </ul>
+            </div>
         </section>
 
         <section id="proyectos">
@@ -118,11 +138,10 @@
         <section id="contacto" class="section">
             <div class="row mt-5">
                 <article class="col-md-4 col-sm-12">
-                    <h3>Contactame</h3>
+                    <h3 class="titulos">Contactame</h3>
 
                     <form name="form-contact" id="form-contact" method="POST">
                         <div class="form-group">
-
                             <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Name" required>
                         </div>
 
@@ -131,7 +150,7 @@
                         </div>
 
                         <div class="form-group">
-                            <select name="subject" id="subject" class="form-control">
+                            <select name="subject" id="subject" class="form-control" required>
                                 <option value="SP">Solo para hablar</option>
                                 <option value="AC">Contratos</option>
                                 <option value="OT">Otros</option>
@@ -147,13 +166,13 @@
                 </article>
 
                 <article class="col-md-4 col-sm-12 col-xs-12">
-                    <h3>Donde estoy</h3>
+                    <h3 class="titulos">Donde estoy</h3>
                     <div id="map"></div>
                 </article>
                 <article class="col-md-4 col-sm-12 col-xs-12">
-                    <h4>Contactame directo</h4>
-                    <h5>Email : angel.risso@hotmail.com</h5>
-                    <h5>Telefono : 0000-0000</h5>
+                    <h4 class="titulos">Contactame directo</h4>
+                    <h5 class="titulos">Email : angel.risso@hotmail.com</h5>
+                    <h5 class="titulos">Telefono : 0000-0000</h5>
                 </article>
             </div>
         </section>
