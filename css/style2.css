@@ -1,13 +1,13 @@
     @charset "UTF-8";
-    @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
     body {
-        color: #444;
+        color: #000000;
         font-size: 15px;
         font-weight: 300;
+        font-family: 'Montserrat', sans-serif;
     }
     
     header {
-        background-color: rgba(0, 0, 0, 0.7);
+        background-color: rgb(54, 15, 54);
         text-align: center;
         font-size: 16px;
         color: #000000;
@@ -15,7 +15,7 @@
     }
     
     main {
-        background-color: #3b2cc9d3;
+        background-color: #3b1b32d3;
     }
     
     header h1 {
@@ -26,13 +26,12 @@
         width: 90%;
         height: 90%;
         position: absolute;
-        margin-bottom: 20px;
+        margin-bottom: 0;
     }
     
     #info-footer {
         color: #a2a2a2;
         background-color: #3d3f3e;
-        padding: 10px 0;
     }
     
     #info-footer h4 {
@@ -43,8 +42,8 @@
     }
     
     .btn-negro {
-        color: #dfdfdf;
-        background-color: #000000;
+        color: #000000;
+        background-color: #cd06ff;
         text-transform: uppercase;
         font-size: 16px;
         padding: 15px 30px;
@@ -54,11 +53,16 @@
         letter-spacing: 2px;
     }
     
+    .btn-negro:hover {
+        background-color: #35002e;
+        color: #ffffff;
+    }
+    
     #contacto {
         background-repeat: no-repeat;
         background-size: cover;
         min-height: 30vh;
-        margin: 30px;
+        margin-left: 30px;
     }
     
     .section {
@@ -68,6 +72,28 @@
     #proyectos {
         justify-content: center;
         justify-self: center;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+    }
+    
+    .redes i {
+        background-color: #464646;
+        color: white;
+        width: 45px;
+        height: 45px;
+        text-align: center;
+        line-height: 45px;
+        border-radius: 100%;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .redes i:hover {
+        background-color: #b3009b;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    #servicios {
         align-items: center;
         text-align: center;
         align-content: center;
