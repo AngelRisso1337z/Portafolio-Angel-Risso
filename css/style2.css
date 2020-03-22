@@ -142,10 +142,10 @@
         color: #000000 !important;
     }
     
-    .form-group::placeholder {
+    .form-control::placeholder {
         color: #000000;
     }
     
-    #nombre::placeholder {
-        color: #000000;
+    .form-control:active {
+        background-color: #b3009b;
     }
